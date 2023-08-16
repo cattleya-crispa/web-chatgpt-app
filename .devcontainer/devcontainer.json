@@ -1,0 +1,8 @@
+{
+	"name": "web-app-fast-api-chatbot-docker", //コンテナ名
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "chat_api_web_app", 
+	"workspaceFolder": "/workspace",
+    "shutdownAction": "stopCompose",
+    "extensions": ["ms-python.python"]
+}
